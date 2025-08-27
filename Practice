@@ -1,0 +1,13 @@
+#goal: to make the output 
+
+a = int(input("Input: "))
+
+
+
+div = a // 2
+mod = a % 2
+
+total = div + mod
+
+
+print(total)

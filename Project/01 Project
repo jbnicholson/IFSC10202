@@ -1,0 +1,6 @@
+input = int(input("How many seconds?: "))
+
+min_div = sec//60
+seconds = sec%60
+
+
