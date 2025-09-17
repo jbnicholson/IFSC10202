@@ -1,13 +1,11 @@
-#goal: to make the output 
+from random import randint
+x = randint(1,2)
 
-a = int(input("Input: "))
+side = input("Heads or Tails?: ")
+
+if x == 1:
+    print("Heads!")
+else:
+    print("Tails!")
 
 
-
-div = a // 2
-mod = a % 2
-
-total = div + mod
-
-
-print(total)
