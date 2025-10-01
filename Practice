@@ -1,11 +1,2 @@
-from random import randint
-x = randint(1,2)
-
-side = input("Heads or Tails?: ")
-
-if x == 1:
-    print("Heads!")
-else:
-    print("Tails!")
-
+x = input("Enter a String: ")
 
